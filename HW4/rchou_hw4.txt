@@ -1,0 +1,77 @@
+Richard Chou
+
+CSCI 571 - Summer 2013
+Professor Crowley
+Homework 4
+
+
+**NOTE: Did not complete the manager report portion. **
+
+
+Database info: cs-server.usc.edu:7787
+Database name: store
+
+Database tables:
+----------------
+customers - customer table
+orders - keeps track of all orders created
+orderitems - used with orders table for displaying orders
+productcategory - product category table
+products - contains all info about products
+sales - items on sale
+shoppingcart - the shopping cart for all customers
+users - business managers, store managers, and admins info table
+----------------
+
+Site location:
+http://cs-server.usc.edu:7786/hw4/home.php
+
+Folder of all files:
+http://cs-server.usc.edu:7786/hw4/
+
+
+Shopping cart code largely based from:
+http://www.qualitycodes.com/tutorial.php?articleid=25&title=Tutorial-Building-a-shopping-cart-in-PHP
+http://www.sourcecodester.com/php/4220/how-build-shopping-cart-w-checkout-php.html
+
+==========
+
+Quick Customer login:
+user: rchou@usc.edu
+pw: richard
+
+==========
+
+The timeout is set to 5 minutes.
+
+Files:
+addcart.php - adds an item to shopping cart
+
+billing.php - checkout for an order
+
+category1.php to category6.php - unique pages for each product category. 
+Displays all items of that type for sale. All items for sale are on the bottom of each page.
+
+editprofile.php - lets user edit their info
+
+functions.php - functions to help add/delete from cart from db and session variables
+
+home.php - front page with all sale items
+
+login.php - login for customers
+
+main.css - css file
+
+menu.html - left hand menu
+
+order.php - processes the order and displays a report for current order
+
+register.php - register as new user
+
+sessions.php - handles login session stuff
+
+shoppingcart.php - the shopping cart
+
+validations.js - javascript validation functions
+
+vieworders.php - view all previous orders

@@ -1,0 +1,142 @@
+body {
+	font-size: 14px;
+	font-family: Helvetica, Arial, Sans-serif;
+	background-color:#444444;
+	background-image:url('/grey_wash_wall.png');
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Helvetica, Arial, Sans-serif;
+	color:#113355;
+}
+
+a {
+	text-decoration:none;
+	color:#ee9922;
+	font-weight:bold;
+	padding:2px; 
+}
+
+img{
+	border-radius:15px;
+}
+
+
+
+a:hover{
+	text-decoration:underline;
+	color:#aa1111;
+	font-weight:bold;
+	padding:2px;
+	/*background:#bbbbbb;*/
+
+}
+
+.header 
+{
+	display:block;
+	width:1000px;
+	border:0px solid black;
+	margin:auto;
+	
+}
+
+.leftmenu
+{
+	display:block;
+	float:left;
+	width:218px;
+	margin-right:10px;
+	padding:10px;
+	border:1px solid black;
+	background:#223344;
+	border-radius:5px;
+	box-shadow: 2px 2px 5px #111;
+	color:#6688aa;
+	text-shadow: 1px 1px 0px #000; 
+	font-weight:bold;
+	
+}
+
+.content
+{
+	display:block;
+	float:left;
+	width:728px;
+	margin:0px;
+	padding:10px;
+	border:1px solid black;
+	background:#eeeeee;
+	border-radius:5px;
+	box-shadow: 2px 2px 5px #111;
+}
+
+.content table{
+	margin-bottom:10px;
+	padding:5px;
+	color:#111133;
+	border-radius:5px;
+	border:1px solid black;
+	box-shadow: 2px 2px 5px #111;
+	background:#9ab1b8;
+}
+
+.main
+{
+	display:block;
+	clear:both;
+	width:1000px;
+	padding:0px;
+	margin:auto;
+	
+}
+
+.title
+{
+	display:inline;
+	float:left;
+	position:relative;
+	left:300px;
+	color:#dddddd;
+}
+
+.title h1{
+	color:#6688aa;
+	padding:10px;
+	border-radius:15px;
+	border: solid 1px #333;
+	background: #333;
+	background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+	background: -moz-linear-gradient(top,  #666,  #000);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+	
+}
+
+.loginlink
+{
+	display:inline;
+	float:right;
+	border:1px solid black;
+	margin-top:84px;
+	margin-bottom:10px;
+	background:#dddddd;
+	padding:5px;
+	border-radius:5px;
+	box-shadow: 2px 2px 5px #111;
+	color:#116050;
+	text-shadow: 1px 1px 0px #aae; 
+	font-weight:bold;
+	
+}
+
+p.footer{
+	clear:both;
+	display:block;
+	text-align:center;
+	font-size: 11px;
+	color:#aaaaaa;
+	line-height: 32px;
+	padding: 10px;
+	margin: 20px;
+}
